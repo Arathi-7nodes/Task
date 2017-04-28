@@ -1,0 +1,2 @@
+class StandController < ApplicationController
+end

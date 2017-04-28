@@ -1,0 +1,46 @@
+<b><i><u><center><font size="500"><font color="green"> Reg_form </font></font></center></u></i></b>
+
+<style type="text/css">
+body {
+  background-color: grey;
+}
+
+</style>
+<p align="center">
+<ul>
+
+  <li><a href="listing"><font size="100">listing</font></a></li>
+
+</ul>
+</p>
+
+
+<br>
+<br>
+<%= form_for(@user) do |f| %>
+
+
+  <div class="field">
+    <%= f.label :name  %>
+    <%= f.text_field :name  %>
+  </div>
+<br>
+  <div class="field">
+    <%= f.label :course%>
+    <%= f.text_field :course %>
+  </div>
+<br>
+  <div class="field">
+    <%= f.label :email  %>
+    <%= f.text_field :email %>
+  </div>
+  </p>
+  <br>
+
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+<body background="/home/user/Downloads/p.jpg">
+</body>
